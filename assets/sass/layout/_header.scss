@@ -1,0 +1,21 @@
+.hero {
+  background-color: $jellybean;
+  height: 80vh;
+  margin-top: 0;
+  padding: 70px;
+  text-align: center;
+
+  &__title {
+    font-size: $x-large;
+    font-weight: $extra-light;
+    color: $white;
+    transform: translate(0%, 80%);
+
+  }
+  &__bold {
+    font-size: $x-large;
+    font-weight: $bold;
+    text-transform: uppercase;
+  }
+
+}

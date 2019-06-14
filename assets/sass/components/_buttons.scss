@@ -1,0 +1,33 @@
+.point {
+  padding: .5rem 2rem;
+  color: $white;
+  border-radius: 30px;
+
+}
+
+.button_default {
+  @extend .point;
+
+  background-color: $white;
+  border: 1px solid $taupegray;
+  color: $granitegray;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $granitegray;
+    border-color: $white;
+    color: $white;
+
+  }
+}
+
+.button_aling {
+  text-align: center;
+
+}
+
+.button_medium {
+  @extend .button_default;
+
+  font-size: $large;
+}
